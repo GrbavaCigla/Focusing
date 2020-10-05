@@ -1,0 +1,10 @@
+[package]
+name = "focusing"
+version = "0.1.0"
+authors = ["GrbavaCigla <alexa.ognjanovic@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+psutil = { version = "3.2.0", default-features = false, features = ["process"] }
+xdg = "2.2.0"
+configparser = "1.0.0"
